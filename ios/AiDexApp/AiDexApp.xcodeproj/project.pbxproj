@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E4B61153FBF47BB982F3933 /* AiDexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535597DB758711E81523A7F7 /* AiDexApp.swift */; };
+		5F837586F5C15769CA486977 /* SensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6912769F9AAD574537677D /* SensorViewModel.swift */; };
+		6366DE26A0DAACA6C3F35D84 /* InfoMac.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0557DB299773ADC98E96B120 /* InfoMac.plist */; };
+		6BC85385B0EAC0992FCEB03E /* AiDexKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6AA56E08749BB5AE2CB6A2A8 /* AiDexKit */; };
+		6F288C29DFB5D0FF9EB91A7C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B2990BE68289066B36DA4A /* Info.plist */; };
+		6FF27B07D16771E9402425E7 /* SensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6912769F9AAD574537677D /* SensorViewModel.swift */; };
+		8AA267057EAA3A36B09D6F24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B6AF57897B18D7ACCBC4A /* ContentView.swift */; };
+		A1E94EDA0B29E329F54FD7B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49B6AF57897B18D7ACCBC4A /* ContentView.swift */; };
+		AB2D533D1FECF40CACD715B1 /* AiDexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535597DB758711E81523A7F7 /* AiDexApp.swift */; };
+		E8ED1E5EC29EA88A086C5D3B /* AiDexKit in Frameworks */ = {isa = PBXBuildFile; productRef = F6D309ACED358AACB60BF5D0 /* AiDexKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B2990BE68289066B36DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0557DB299773ADC98E96B120 /* InfoMac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = InfoMac.plist; sourceTree = "<group>"; };
+		272155B84FBB55CDCE3DFD38 /* AiDexAppMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AiDexAppMac.app; path = AiDexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6912769F9AAD574537677D /* SensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewModel.swift; sourceTree = "<group>"; };
+		535597DB758711E81523A7F7 /* AiDexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiDexApp.swift; sourceTree = "<group>"; };
+		5792E7FBDDD7F466FE294077 /* AiDexKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AiDexKit; path = ../AiDexKit; sourceTree = SOURCE_ROOT; };
+		9158B48524ED9EB66E2A2235 /* AiDexAppMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AiDexAppMac.entitlements; sourceTree = "<group>"; };
+		B422EE0DEBD14726DF70BFBA /* AiDexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiDexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B6AF57897B18D7ACCBC4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F96A67F4BC52C1C6679D882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ED1E5EC29EA88A086C5D3B /* AiDexKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6D103CEBC7BC9215DAD4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC85385B0EAC0992FCEB03E /* AiDexKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C10A05F131054AA6046DF0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				535597DB758711E81523A7F7 /* AiDexApp.swift */,
+				9158B48524ED9EB66E2A2235 /* AiDexAppMac.entitlements */,
+				F49B6AF57897B18D7ACCBC4A /* ContentView.swift */,
+				01B2990BE68289066B36DA4A /* Info.plist */,
+				0557DB299773ADC98E96B120 /* InfoMac.plist */,
+				4C6912769F9AAD574537677D /* SensorViewModel.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3A6AC123A4CCB0FDCFEDFE56 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5792E7FBDDD7F466FE294077 /* AiDexKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		5BB53E2FE0F48E3AB17DF825 = {
+			isa = PBXGroup;
+			children = (
+				3A6AC123A4CCB0FDCFEDFE56 /* Packages */,
+				16C10A05F131054AA6046DF0 /* Sources */,
+				862F335777EF8A01AA757203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		862F335777EF8A01AA757203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B422EE0DEBD14726DF70BFBA /* AiDexApp.app */,
+				272155B84FBB55CDCE3DFD38 /* AiDexAppMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23EDF87615B85169895F4202 /* AiDexAppMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01A385ACB16CCE6142B33A2 /* Build configuration list for PBXNativeTarget "AiDexAppMac" */;
+			buildPhases = (
+				1096DB726696595F358415A1 /* Sources */,
+				8D73E6A6E676E1CC4E4A225D /* Resources */,
+				5F96A67F4BC52C1C6679D882 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiDexAppMac;
+			packageProductDependencies = (
+				F6D309ACED358AACB60BF5D0 /* AiDexKit */,
+			);
+			productName = AiDexAppMac;
+			productReference = 272155B84FBB55CDCE3DFD38 /* AiDexAppMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6D1AD4D570925E056DDFF9E /* AiDexApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F466BDFA101B2091F47EA87 /* Build configuration list for PBXNativeTarget "AiDexApp" */;
+			buildPhases = (
+				5114085DB72E686021A6433B /* Sources */,
+				ADD7428078F25B83913BB81F /* Resources */,
+				CD6D103CEBC7BC9215DAD4A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiDexApp;
+			packageProductDependencies = (
+				6AA56E08749BB5AE2CB6A2A8 /* AiDexKit */,
+			);
+			productName = AiDexApp;
+			productReference = B422EE0DEBD14726DF70BFBA /* AiDexApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A05787BD63B125C7DC5EFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					23EDF87615B85169895F4202 = {
+						ProvisioningStyle = Automatic;
+					};
+					F6D1AD4D570925E056DDFF9E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3EEBE8D0F3FEB3CE8F7B2C0C /* Build configuration list for PBXProject "AiDexApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5BB53E2FE0F48E3AB17DF825;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D99ED113057832563CF1CFC5 /* XCLocalSwiftPackageReference "../AiDexKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 862F335777EF8A01AA757203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D1AD4D570925E056DDFF9E /* AiDexApp */,
+				23EDF87615B85169895F4202 /* AiDexAppMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D73E6A6E676E1CC4E4A225D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F288C29DFB5D0FF9EB91A7C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD7428078F25B83913BB81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6366DE26A0DAACA6C3F35D84 /* InfoMac.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1096DB726696595F358415A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2D533D1FECF40CACD715B1 /* AiDexApp.swift in Sources */,
+				A1E94EDA0B29E329F54FD7B7 /* ContentView.swift in Sources */,
+				5F837586F5C15769CA486977 /* SensorViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5114085DB72E686021A6433B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4B61153FBF47BB982F3933 /* AiDexApp.swift in Sources */,
+				8AA267057EAA3A36B09D6F24 /* ContentView.swift in Sources */,
+				6FF27B07D16771E9402425E7 /* SensorViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0908C8F5ED7AF56DA18A07B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ7ATT4GV2;
+				INFOPLIST_FILE = Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jugglucong.aidex.AiDexApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EE1B59508DF788105BBA631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/AiDexAppMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/InfoMac.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jugglucong.aidex.AiDexAppMac;
+				PRODUCT_NAME = AiDexApp;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF3F183285BE2E550AD5768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C7DA0766545A6D6FBDF984CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/AiDexAppMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/InfoMac.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jugglucong.aidex.AiDexAppMac;
+				PRODUCT_NAME = AiDexApp;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E19501D16D1ABB50FDC51701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FFABEE5C15DE221FBFD81A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ7ATT4GV2;
+				INFOPLIST_FILE = Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jugglucong.aidex.AiDexApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EEBE8D0F3FEB3CE8F7B2C0C /* Build configuration list for PBXProject "AiDexApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19501D16D1ABB50FDC51701 /* Debug */,
+				AF3F183285BE2E550AD5768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F466BDFA101B2091F47EA87 /* Build configuration list for PBXNativeTarget "AiDexApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFABEE5C15DE221FBFD81A2A /* Debug */,
+				0908C8F5ED7AF56DA18A07B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E01A385ACB16CCE6142B33A2 /* Build configuration list for PBXNativeTarget "AiDexAppMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE1B59508DF788105BBA631 /* Debug */,
+				C7DA0766545A6D6FBDF984CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D99ED113057832563CF1CFC5 /* XCLocalSwiftPackageReference "../AiDexKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AiDexKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6AA56E08749BB5AE2CB6A2A8 /* AiDexKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AiDexKit;
+		};
+		F6D309ACED358AACB60BF5D0 /* AiDexKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AiDexKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4A05787BD63B125C7DC5EFCB /* Project object */;
+}

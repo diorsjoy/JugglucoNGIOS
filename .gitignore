@@ -61,3 +61,9 @@ Common/printmappingout.txt
 /Common/mobile/
 /Common/wear/
 /update-manifest.json
+
+# ios port
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate

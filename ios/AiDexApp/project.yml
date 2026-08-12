@@ -1,0 +1,44 @@
+name: AiDexApp
+options:
+  bundleIdPrefix: com.jugglucong.aidex
+packages:
+  AiDexKit:
+    path: ../AiDexKit
+targets:
+  AiDexApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - Sources
+    dependencies:
+      - package: AiDexKit
+    info:
+      path: Sources/Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSBluetoothAlwaysUsageDescription: "Connects to your AiDex glucose sensor over Bluetooth."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jugglucong.aidex.AiDexApp
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+  AiDexAppMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - Sources
+    dependencies:
+      - package: AiDexKit
+    info:
+      path: Sources/InfoMac.plist
+      properties:
+        NSBluetoothAlwaysUsageDescription: "Connects to your AiDex glucose sensor over Bluetooth."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jugglucong.aidex.AiDexAppMac
+        PRODUCT_NAME: AiDexApp
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_ENTITLEMENTS: Sources/AiDexAppMac.entitlements
